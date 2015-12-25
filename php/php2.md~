@@ -1,0 +1,34 @@
+#   PHP
+
+---
+
+
+##  1.字符串函数
+
+*   strlen()
+
+```php
+<?php
+echo strlen("Hello world!");
+?>
+```
+*  strpos() 用于检索字符串内指定的字符或文本。
+
+```php
+<?php
+echo strpos("Hello world!","world");
+?>
+```
+
+##  2.常量
+
+常量是单个值的标识符（名称）。在脚本中无法改变该值。
+有效的常量名以字符或下划线开头（常量名称前面没有 $ 符号）。
+注释：与变量不同，常量贯穿整个脚本是自动全局的。
+
+```php
+<?php
+define("GREETING", "Welcome to W3School.com.cn!");
+echo GREETING;
+?>
+```
